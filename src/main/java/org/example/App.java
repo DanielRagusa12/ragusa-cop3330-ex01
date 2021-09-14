@@ -11,10 +11,13 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("What is your name? ");
+        System.out.print("What is your name? ");
         String StudentName;
         Scanner input=new Scanner(System.in);
         StudentName=input.next();
-        System.out.println("Hello, "+(StudentName)+", nice to meet you!");
+
+        String Out="Hello, "+(StudentName)+", nice to meet you!";
+
+        System.out.println(Out);
     }
 }
